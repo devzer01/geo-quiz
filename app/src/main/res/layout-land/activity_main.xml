@@ -33,10 +33,18 @@
     </LinearLayout>
 
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cheat_button"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/cheat_button"/>
+
+    <Button
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next_button"
+        android:gravity="bottom"
         android:drawableEnd="@drawable/arrow_right"
         android:drawablePadding="4dp"
         />
